@@ -42,7 +42,7 @@ class _CharacterInfo extends StatelessWidget {
             return SingleChildScrollView(
               child: Column(
                 children: [
-                  Image.network(info.characters.first.photo),
+                  Image.network(info.characters.first.photo,),
 
                   Text(info.characters.first.name.toString(),
                     style: const TextStyle(
